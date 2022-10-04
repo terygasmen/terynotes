@@ -23,7 +23,7 @@
     --text-title-h4: #ffb86c;
     --text-title-h5: #50fa7b;
     --text-title-h6: #8be9fd;
-    --text-accent: #b380fb;
+    --text-accent: #ffb86c;
     --text-accent-hover: #8be9fd;
     --pre-code: #44475a;
     --blockquote-border: #ffb86c;
@@ -69,10 +69,10 @@ h1 {
     font-size: var(--font-size-h6);
     color: var(--text-title-h6);
 } a, a:visited {
-    color: var(--text-accent);
+    color: var(--text-accent-hover);
     text-decoration: none;
 } a:hover {
-    color: var(--text-accent-hover);
+    color: var(--text-accent);
 }
 
 em {
