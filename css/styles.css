@@ -43,10 +43,16 @@ html {
     margin: 5rem 15rem;
 }
 
-/* for tablets and mobile phones */
+/* for tablets */
 @media screen and (max-width: 800px) {
     main {
         margin: 5rem 8rem;
+    }
+}
+/* for phones */
+@media screen and (max-width: 600px) {
+    main {
+        margin: 1rem 2rem;
     }
 }
 
