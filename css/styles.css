@@ -36,7 +36,7 @@ html {
     color: var(--text-normal);
     font-family: var(--font-text);
     font-size: var(--font-size-normal);
-    line-height: 28px;
+    line-height: 30px;
 } nav {
     padding: 1rem;
     text-align: center;
@@ -51,6 +51,11 @@ html {
     }
 }
 
+h1, h2, h3, h4, h5, h6, ul {
+    margin: 0;
+} h1, h2 {
+    padding-top: 50px;
+}
 h1 {
     font-size: var(--font-size-h1);
     color: var(--text-title-h1);
@@ -74,9 +79,7 @@ h1 {
     text-decoration: none;
 } a:hover {
     color: var(--text-accent);
-}
-
-em {
+} em {
     color: var(--text-italic-color);
 } strong {
     color: var(--text-bold-color);
